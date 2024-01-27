@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+.logo-alura {
+    margin: 40px 0px 40px 40px;
+    width: 10%;
+}
+
+.bloco-digite-texto {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.campo-digite-texto {
+    width: 680px;
+    max-width: 680px;
+    height: 48px;
+    color: darkblue;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloco-resultado {
+    margin: 40px 24px 40px ;
+}
