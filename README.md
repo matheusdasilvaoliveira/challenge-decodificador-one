@@ -1,2 +1,2 @@
 # challenge-decodificador-one
-Um projeto para codificar e decodificador textos
+Um projeto desafio da Alura com a Oracle para codificar e decodificador textos.
