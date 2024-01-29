@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
 
 body {
     background-color: #E5E5E5;
@@ -6,31 +12,147 @@ body {
     box-sizing: border-box;
 }
 
-main {
+.pagina-inteira {
+    display: flex;
+    align-items: start;
+}
+
+.pagina-principal {
     display: flex;
 }
 
 .logo-alura {
-    margin: 40px 0px 40px 40px;
+    margin: 40px 80px 80px 40px;
     width: 10%;
+    align-items: start;
 }
 
 .bloco-digite-texto {
+    margin: 168px 80px 0px 0px;
     text-align: center;
     color: antiquewhite;
 }
 
-.campo-digite-texto {
+#campo-digite-texto {
+    background-color: transparent;
+    color: #0A3871;
+    margin-bottom: 635px;
     width: 680px;
-    max-width: 680px;
     height: 48px;
-    color: darkblue;
-    font-family: 'Inter', sans-serif;
     font-size: 32px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    outline: none;
+}
+
+#campo-digite-texto::placeholder {
+    color: #0A3871;
+}
+
+#campo-digite-texto:focus {
+    border: none;
+}
+
+.aviso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.icone-aviso {
+    width: 16px;
+    height: 16px;
+}
+
+.frase-aviso {
+    margin-left: 8px;
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.botoes-principais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-criptografar, .botao-descriptografar {
+    border-radius: 24px;
+    width: 328px;
+    padding: 24px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.botao-criptografar {
+    background-color: #0A3871;
+    color: white;
+}
+
+.botao-descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
 }
 
 .bloco-resultado {
-    margin: 40px 24px 40px ;
+    height: 944px;
+    width: 400px;
+    border-radius: 32px;
+    background-color: white;
+    margin: 40px 40px 40px 80px ;
+}
+
+.imagem-procurando-resultados {
+    padding: 243px 32px 32px 32px;
+}
+
+.caixa-sem-mensagem {
+    text-align: center;
+    margin: 0px 32px 243px 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.msg-nao-encontrada {
+    color: #343A40;
+    font-size: 24px;
+    /* font-weight: 700;
+    font-weight: bolder; */
+}
+
+.msg-digite-texto {
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contatos-redes-sociais {
+    background-color: #1E90FF;
+    padding: 5px 0px 100px 20px;
+}
+
+.titulo-contatos {
+    padding-top: 50px;
+    margin: 30px 15px 20px 15px;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: #D8DFE8;
+}
+
+.rede-social {
+    margin: 10px 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #D8DFE8;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
 }

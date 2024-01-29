@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="src/images/codificador-de-midia.png" type="image/x-icon">
     <title>Decodificador</title>
 </head>
+
 <body>
     <header></header>
 
     <main>
-        <img class="logo-alura" src="src/images/Frame 6.svg" alt="Logo alura">
 
-        <section class="bloco-digite-texto">
-            <div>
-                <input class="campo-digite-texto" type="text" placeholder="Digite seu texto" autofocus>
-            </div>
-        </section>
 
-        <section class="bloco-resultado">
-            
+        <section class="pagina-inteira">
+            <img class="logo-alura" src="src/images/Frame 6.svg" alt="Logo alura">
+            <section class="bloco-digite-texto">
+                <input class="campo-digite-texto" id="campo-digite-texto" type="text" placeholder="Digite seu texto"
+                    autofocus>
+
+                <div class="aviso">
+                    <img class="icone-aviso" src="src/images/Vector.png" alt="">
+                    <p class="frase-aviso">Apenas letras minúsculas e sem acento</p>
+
+                </div>
+
+                <div class="botoes-principais">
+                    <button class="botao-criptografar">Criptografar</button>
+                    <button class="botao-descriptografar">Descriptografar</button>
+                </div>
+            </section>
+
+            <section class="bloco-resultado">
+                <img class="imagem-procurando-resultados" src="src/images/High quality products 1 1.svg"
+                    alt="Imagem de uma pessoa segurando uma lupa buscando uma resposta">
+                <section class="caixa-sem-mensagem">
+                    <strong class="msg-nao-encontrada">Nenhuma mensagem encontrada</strong>
+                    <p class="msg-digite-texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </section>
+
+            </section>
+
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <section class="contatos-redes-sociais">
+            <h6 class="titulo-contatos">Contatos:</h6>
+            <a href="https://www.linkedin.com/in/dev-matheus-da-silva-oliveira/" class="rede-social" target="_blank">
+                <img src="src/images/linkedin-colorido.svg" alt="Ícone do LinkedIn" class="icon">LinkedIn
+            </a>
+            <a href="https://github.com/matheusdasilvaoliveira" class="rede-social" target="_blank">
+                <img src="src/images/github-mark.svg" alt="Ícone do GitHub" class="icon">GitHub
+            </a>
+            <a href="https://www.instagram.com/esse_matheux?igsh=OWlxcDM2djE5Nnpi" class="rede-social" target="_blank">
+                <img src="src/images/instagram-colorido.svg" alt="Ícone do Instagram" class="icon">Instagram
+            </a>
+        </section>
+    </footer>
 </body>
+
 </html>
