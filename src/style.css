@@ -87,6 +87,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.botao-criptografar:hover, .botao-descriptografar:hover {
+    cursor: pointer;
+    background-color: #1E90FF;
+}
+
 .botao-criptografar {
     background-color: #0A3871;
     color: white;
